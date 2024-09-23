@@ -1,0 +1,12 @@
+baseURL = 'https://syndrome-impostor.github.io/'
+languageCode = 'en-us'
+title = "Syndrome Impostor's Blog"
+theme = "holy"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10

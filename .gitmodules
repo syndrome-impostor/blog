@@ -1,0 +1,7 @@
+[submodule "syndromeimpostorblog/themes/holy"]
+	path = syndromeimpostorblog/themes/holy
+	url = https://github.com/serkodev/holy.git
+[submodule "syndromeimpostorblog/public"]
+	path = syndromeimpostorblog/public
+	url = https://github.com/syndrome-impostor/syndrome-impostor.github.io.git
+	branch = main
