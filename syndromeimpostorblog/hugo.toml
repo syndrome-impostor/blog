@@ -1,10 +1,27 @@
 baseURL = 'https://syndrome-impostor.github.io/'
 languageCode = 'en-us'
 title = "Syndrome Impostor's Blog"
-theme = "holy"
+theme = "papermod"
+
+[params]
+  # Site settings
+  description = "Security research, bug bounty hunting, and OAuth/OIDC vulnerability analysis"
+  author = "Syndrome Impostor"
+  
+  # Social Icons for the entire site
+  [[params.socialIcons]]
+    name = "twitter"
+    url = "https://x.com/Syndromeimpostr"
+    
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/syndrome-impostor"
+    
+  [[params.socialIcons]]
+    name = "rss"
+    url = "/index.xml"
 
 [menu]
-
   [[menu.main]]
     identifier = "about"
     name = "About"

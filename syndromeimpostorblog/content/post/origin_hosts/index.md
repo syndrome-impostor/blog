@@ -1,11 +1,8 @@
 +++
 title = 'Fuzzing for Exposed Origin Hosts'
 date = 2025-04-08T14:55:06-07:00
+ShowToc = true
 +++
-
-[toc]
-
-* * *
 
 # Intro
 
