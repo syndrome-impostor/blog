@@ -1,0 +1,13 @@
+<div class="cve-grid">
+    {{ range $.Site.Data.cves }}
+    <div class="cve-card">
+        <div class="cve-header">
+            <span class="cve-id">
+                <a href="{{ .link }}" target="_blank" rel="noopener noreferrer">{{ .id }}</a>
+            </span>
+            <span class="cve-badge {{ .severity | lower }}">{{ .severity }} {{ .score }}</span>
+        </div>
+        <p class="cve-desc">{{ .description }}</p>
+    </div>
+    {{ end }}
+</div>

@@ -1,0 +1,23 @@
+- id: "CVE-2026-24775"
+  score: "8.9"
+  severity: "High"
+  link: "https://nvd.nist.gov/vuln/detail/CVE-2026-24775"
+  description: "Forced Actions, Content Spoofing, and Persistent DoS via ID Manipulation in OpenProject Blocknote Editor Extension"
+
+- id: "CVE-2026-24772"
+  score: "6.3"
+  severity: "Medium"
+  link: "https://nvd.nist.gov/vuln/detail/CVE-2026-24772"
+  description: "SSRF and CSWSH in Hocuspocus Synchronization Server"
+
+- id: "CVE-2026-23646"
+  score: "6.5"
+  severity: "Medium"
+  link: "https://nvd.nist.gov/vuln/detail/CVE-2026-23646"
+  description: "Users can delete other user's session, causing them to be logged out"
+
+- id: "CVE-2026-22600"
+  score: "9.1"
+  severity: "Critical"
+  link: "https://nvd.nist.gov/vuln/detail/CVE-2026-22600"
+  description: "Arbitrary File Read via ImageMagick SVG Coder"

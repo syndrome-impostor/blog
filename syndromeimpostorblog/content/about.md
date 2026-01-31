@@ -1,49 +1,35 @@
 +++
-title = 'About'
+title = 'Hi there! 👋'
 aliases = ["about-us", "about", "contact"]
-date = 2024-09-22T23:24:59-07:00
 +++
 
-# Hi there! 👋
 
-I go by **Syndrome Impostor**, I'm a full-time bug bounty hunter and security researcher with a passion for finding vulnerabilities in complex systems. Currently, I specialize in **OAuth and OIDC implementations**, where I've discovered security flaws that have helped secure millions of user accounts.
+I go by **Syndrome Impostor**. I am a full-time bug bounty hunter and security researcher specializing in OAuth and OIDC implementations.
 
-## 🔍 What I Do
+My handle was given to me by two very close friends. I carry it as a reminder that nearly everyone in this industry experiences impostor syndrome, and we all have something valuable to contribute. 
 
-My background spans **systems architecture**, **networking**, and **security engineering leadership**, giving me a unique perspective to identify vulnerabilities that exist between different layers of technology. I excel at:
+## 🎯 Technical Focus
 
-- **OAuth/OIDC Security Research** - Finding authentication and authorization bypasses
-- **Web Application Security** - Discovering logic flaws and implementation vulnerabilities  
-- **Systems Architecture Analysis** - Understanding how complex systems interact and where they break
-- **Security Engineering** - Building secure solutions and improving security practices
+I focus on finding vulnerabilities at the intersection of different technologies, specifically:
 
-## 🎯 My Approach
-
-I believe the most interesting vulnerabilities are found at the intersection of different technologies and systems. My methodology combines:
-
-- Deep technical understanding of protocols and standards
-- Systematic approach to security testing
-- Creative thinking to find edge cases and unusual attack vectors
-- Collaboration with security teams to understand business impact
-
-## 🏆 Bug Bounty Platforms
-
-Find me on these platforms where I actively hunt for vulnerabilities:
-
-- **[BugCrowd](https://bugcrowd.com/h/syndrome-impostor)**
-- **[HackerOne](https://hackerone.com/syndrome_impostor)**
-- **[YesWeHack](https://yeswehack.com/hunters/syndrome-impostor)**
+- **OAuth/OIDC:** Authentication and authorization bypasses.
+- **Application Logic:** Complex business logic errors that automated scanners miss.
+- **Systems Architecture:** Identifying flaws in the communication between distinct technology layers.
 
 ## 🤝 Let's Connect
 
-Want to see me speak at a conference, collaborate on research, or discuss a potential bug bounty finding? I'm always open to connecting with fellow security researchers and industry professionals.
+I am available for **conference speaking**, **collaborative research**, and **consulting**.
 
-### Social Media
+**Bug Bounty**
+- [BugCrowd](https://bugcrowd.com/h/syndrome-impostor)
+- [YesWeHack](https://yeswehack.com/hunters/syndrome-impostor)
 
-- **[Twitter/X](https://x.com/Syndromeimpostr)**
-- **[Bluesky](https://bsky.app/profile/syndrome-impostor.bsky.social)**
-- **[GitHub](https://github.com/syndrome-impostor)**
+**Social & Professional**
+- [Twitter/X](https://x.com/Syndromeimpostr)
+- [GitHub](https://github.com/syndrome-impostor)
+- [LinkedIn](https://www.linkedin.com/in/scott-infosec/)
+- [TurtleSec](https://turtlesec.io/)
 
 ---
 
-*Always happy to discuss OAuth security, bug bounty hunting techniques, or grab a beer at security conferences! Feel free to reach out through any of the platforms above.*
+*Always happy to discuss OAuth quirks, or grab a beer at security conferences!*

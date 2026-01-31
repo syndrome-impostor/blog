@@ -1,0 +1,74 @@
+.cve-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.cve-card {
+    background: var(--entry); /* PaperMod card background */
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 1.5rem;
+    transition: transform 0.1s;
+}
+
+.cve-card:hover {
+    transform: scale(1.01);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.cve-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    font-family: var(--font-mono); /* Uses theme's monospace font */
+}
+
+.cve-id a {
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--primary);
+}
+
+.cve-desc {
+    font-size: 0.95rem;
+    color: var(--secondary);
+    margin: 0;
+    line-height: 1.5;
+}
+
+/* Severity Badges */
+.cve-badge {
+    font-size: 0.75rem;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+/* Critical: Deep Red */
+.cve-badge.critical { 
+    background-color: #d90429; 
+    color: #fff; 
+}
+
+/* High: Bright Orange */
+.cve-badge.high { 
+    background-color: #f97316; 
+    color: #fff; 
+}
+
+/* Medium: Yellow (Must use Black text for contrast) */
+.cve-badge.medium { 
+    background-color: #facc15; 
+    color: #000; /* Black text is required on yellow */
+    border: 1px solid #eab308; /* Subtle border to pop against white backgrounds */
+}
+
+/* Low: Green */
+.cve-badge.low { 
+    background-color: #16a34a; 
+    color: #fff; 
+}

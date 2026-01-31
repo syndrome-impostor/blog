@@ -1,12 +1,14 @@
 baseURL = 'https://syndrome-impostor.github.io/'
 languageCode = 'en-us'
-title = "Syndrome Impostor's Blog"
+title = "Blog"
 theme = "papermod"
 
 [params]
-  # Site settings
   description = "Security research, bug bounty hunting, and OAuth/OIDC vulnerability analysis"
-  author = "Syndrome Impostor"
+
+  [params.homeInfoParams]
+    Title = "Syndrome Impostor"
+    Content = "Security Researcher // OAuth & OIDC Specialist // Bug Bounty Hunter"
   
   # Social Icons for the entire site
   [[params.socialIcons]]
@@ -16,10 +18,10 @@ theme = "papermod"
   [[params.socialIcons]]
     name = "github"
     url = "https://github.com/syndrome-impostor"
-    
+
   [[params.socialIcons]]
-    name = "rss"
-    url = "/index.xml"
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/scott-infosec/"
 
 [menu]
   [[menu.main]]
@@ -27,3 +29,8 @@ theme = "papermod"
     name = "About"
     url = "/about/"
     weight = 10
+  [[menu.main]]
+    identifier = "cves"
+    name = "CVEs"
+    url = "/cves/"
+    weight = 9
