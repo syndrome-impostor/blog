@@ -1,3 +1,21 @@
+- id: "CVE-2026-27733"
+  score: "4.3"
+  severity: "Medium"
+  link: "https://github.com/opf/openproject/security/advisories/GHSA-w9w6-f59w-89vj"
+  description: "Authorization bypass via MCP endpoint"
+
+- id: "CVE-2026-27716"
+  score: "4.3"
+  severity: "Medium"
+  link: "https://github.com/opf/openproject/security/advisories/GHSA-qpg6-635j-wjc2"
+  description: "Information disclosure on OpenProject through /api/v3/custom_fields/{id}/items"
+
+- id: "CVE-2026-26968"
+  score: "4.3"
+  severity: "Medium"
+  link: "https://github.com/opf/openproject/security/advisories/GHSA-g62r-9rgf-h53q"
+  description: "Improper Access Control on OpenProject instance through /api/v3/capabilities"
+
 - id: "CVE-2026-24775"
   score: "8.9"
   severity: "High"
